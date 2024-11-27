@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: RIAA-V3
+    env: node   # or python, go, etc., based on your project
+    buildCommand: "npm install"   # Adjust this for your project
+    startCommand: "npm start"     # Adjust this for your project
+    region: oregon               # Adjust to your preferred region
+    plan: free                   # Use free or paid based on your need
